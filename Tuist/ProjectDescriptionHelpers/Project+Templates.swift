@@ -78,6 +78,7 @@ extension Project {
             dependencies: [
                 .rxSwift,
                 .rxAppState,
+                .kingfisher,
             ]
         )
 
