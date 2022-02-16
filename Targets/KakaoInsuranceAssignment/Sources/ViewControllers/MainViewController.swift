@@ -70,13 +70,14 @@ class MainViewController: UIViewController {
 //                cell.updateImageViewWithImage(image)
 //            }
 //            OperationQueue.main.addOperation(imageOP)
+            cell.updateImage(cell.photoImage?.urls.thumb ?? "")
 
-            let imageProvider = ImageProvider(photoViewModel: cell.photoImage!) { image in
-                OperationQueue.main.addOperation {
-                    cell.updateImageViewWithImage(image)
-                }
-            }
-            self?.imageProviders.insert(imageProvider)
+//            let imageProvider = ImageProvider(photoViewModel: cell.photoImage!) { image in
+//                OperationQueue.main.addOperation {
+//                    cell.updateImageViewWithImage(image)
+//                }
+//            }
+//            self?.imageProviders.insert(imageProvider)
         })
             .disposed(by: disposeBag)
 

@@ -76,9 +76,13 @@ extension Project {
             sources: ["Targets/\(name)/Sources/**"],
             resources: ["Targets/\(name)/Resources/**"],
             dependencies: [
-                .rxSwift,
-                .rxAppState,
-                .kingfisher,
+                .external(name: "RxSwift"),
+                .external(name: "RxCocoa"),
+                .external(name: "RxAppState"),
+                .external(name: "Kingfisher"),
+//                .rxSwift,
+//                .rxAppState,
+//                .kingfisher,
             ]
         )
 

@@ -20,6 +20,9 @@
                   location = "group:checkouts"
                   name = "checkouts">
                   <FileRef
+                     location = "group:Kingfisher/Kingfisher.xcodeproj">
+                  </FileRef>
+                  <FileRef
                      location = "group:RxAppState/RxAppState.xcodeproj">
                   </FileRef>
                   <FileRef

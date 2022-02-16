@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class PhotoCell: UICollectionViewCell {
 
@@ -15,7 +16,8 @@ class PhotoCell: UICollectionViewCell {
     var photoImage: PhotoViewModel? {
         didSet {
             if let photoImage = photoImage {
-                updateImageViewWithImage(nil)
+                imageView.image = nil
+//                updateImageViewWithImage(nil)
             }
         }
     }
@@ -37,20 +39,10 @@ class PhotoCell: UICollectionViewCell {
     }()
 
     func updateImage(_ image: String) {
-        
-        let imageOp = ImageOperation(inputImageURL: image) { image in
-            
-                self.updateImageViewWithImage(image)
-        }
-        OperationQueue.main.addOperation(imageOp)
-//        OperationQueue.main.addOperation { [weak self] in
-//            if let imageURL = URL(string: image) {
-//                let data = try? Data(contentsOf: imageURL)
-//                let image = UIImage(data: data!)
-//                self?.imageView.image = image
-//            }
-//        }
-
+        let url = URL(string: image)
+        imageView.kf.setImage(with: url, options: [
+            .transition(.fade(0.2))
+        ])
     }
     
     

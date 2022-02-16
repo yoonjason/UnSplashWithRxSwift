@@ -6,5 +6,6 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .exact("6.5.0")),
         .package(url: "https://github.com/pixeldock/RxAppState.git", .exact("1.7.1")),
+        .package(url: "https://github.com/onevcat/Kingfisher", .upToNextMajor(from: "7.0.0")),
     ]
 )
