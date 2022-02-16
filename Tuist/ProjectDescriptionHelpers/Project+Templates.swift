@@ -76,9 +76,8 @@ extension Project {
             sources: ["Targets/\(name)/Sources/**"],
             resources: ["Targets/\(name)/Resources/**"],
             dependencies: [
-                .external(name: "RxCocoa"),
-                .external(name: "RxSwift"),
-                .external(name: "RxAppState"),
+                .rxSwift,
+                .rxAppState,
             ]
         )
 
