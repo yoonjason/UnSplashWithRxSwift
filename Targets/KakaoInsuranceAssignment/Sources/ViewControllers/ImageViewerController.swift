@@ -42,9 +42,9 @@ class ImageViewerController: UIViewController {
         collectionView.rx.setDelegate(self).disposed(by: disposeBag)
         return collectionView
     }()
-    
+
     private lazy var dismissGesture: UIPanGestureRecognizer = {
-       let gesture = UIPanGestureRecognizer()
+        let gesture = UIPanGestureRecognizer()
         gesture.maximumNumberOfTouches = 1
         gesture.delegate = self
         gesture.addTarget(self, action: #selector(handleDismiss))
@@ -107,15 +107,15 @@ class ImageViewerController: UIViewController {
             collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-            
+
             closeBtn.heightAnchor.constraint(equalToConstant: 100),
             closeBtn.widthAnchor.constraint(equalToConstant: 70),
             closeBtn.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -closeBtn.frame.width),
             closeBtn.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
-        ])
+            ])
     }
 
-    
+
 
 }
 
@@ -123,16 +123,16 @@ extension ImageViewerController {
     @objc func didTapClose() {
         dismiss()
     }
-    
+
     @objc func handleDismiss(gesture: UIPanGestureRecognizer) {
-       dismiss()
+        dismiss()
     }
-    
-    func dismiss(){
+
+    func dismiss() {
         viewModel.currentPageIndexPath.accept(self.currnetIndexPath)
         self.dismiss(animated: true, completion: nil)
     }
-    
+
 }
 
 extension ImageViewerController: UIScrollViewDelegate { }
@@ -141,4 +141,22 @@ extension ImageViewerController: UIGestureRecognizerDelegate {
     func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
         return true
     }
+}
+
+
+extension ImageViewerController: UIViewControllerTransitioningDelegate {
+//    func animationController(
+//        forPresented presented: UIViewController,
+//        presenting: UIViewController,
+//        source: UIViewController
+//    ) -> UIViewControllerAnimatedTransitioning? {
+//
+//    }
+//
+//    func animationController(
+//        forDismissed dismissed: UIViewController
+//    ) -> UIViewControllerAnimatedTransitioning? {
+//
+//    }
+
 }

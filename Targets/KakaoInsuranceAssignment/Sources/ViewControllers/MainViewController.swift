@@ -21,6 +21,8 @@ class MainViewController: UIViewController {
     var imageProviders = Set<ImageProvider>()
     let layout = UICollectionViewFlowLayout()
 
+    var selectedCell: PhotoCell?
+
     private lazy var collectionView: UICollectionView = {
         layout.scrollDirection = .vertical
         layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
@@ -96,10 +98,12 @@ class MainViewController: UIViewController {
             .bind { [weak self] indexPath, model in
             guard let cell = self?.collectionView.cellForItem(at: indexPath) else { return }
             guard let cell = cell as? PhotoCell else { return }
+            self?.selectedCell = cell
+            print(self?.selectedCell?.photoImage?.urls.thumb)
             viewModel.currentPageIndexPath.accept(indexPath.row)
-            let detailVC = ImageViewerController(viewModel, cellIndex: indexPath.row)
-            detailVC.modalPresentationStyle = .fullScreen
-            self?.present(detailVC, animated: true, completion: nil)
+//            let detailVC = ImageViewerController(viewModel, cellIndex: indexPath.row)
+//            detailVC.modalPresentationStyle = .fullScreen
+//            self?.present(detailVC, animated: true, completion: nil)
         }
             .disposed(by: disposeBag)
 
@@ -130,7 +134,7 @@ class MainViewController: UIViewController {
             collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             collectionView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
-        ])
+            ])
     }
 
     func setSearchContrller() {
@@ -179,6 +183,7 @@ extension MainViewController: UISearchBarDelegate {
         print("cancel")
     }
 }
+
 
 
 
