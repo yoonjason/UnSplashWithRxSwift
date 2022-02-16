@@ -1,0 +1,2108 @@
+{
+  "externalProjects" : [
+    "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxAppState",
+    {
+      "sourceRootPath" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxAppState",
+      "options" : [
+
+      ],
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "kind" : "iOS",
+            "version" : "10.0",
+            "deploymentDevices" : 3
+          },
+          "prune" : false,
+          "bundleId" : "RxAppState",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "kind" : "project",
+              "target" : "RxSwift",
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+            },
+            {
+              "kind" : "project",
+              "target" : "RxCocoa",
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "RxAppState",
+          "settings" : {
+            "base" : {
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "SWIFT_PACKAGE"
+                ]
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "USE_HEADERMAP" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "HEADER_SEARCH_PATHS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "$(SRCROOT)\/..\/RxSwift\/Sources\/RxCocoaRuntime\/include"
+                ]
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "SWIFT_PACKAGE=1"
+                ]
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                ]
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "kind" : "string",
+                "string" : "YES"
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "kind" : "recommended",
+              "excluding" : [
+
+              ]
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxAppState\/Pod\/Classes\/UIApplication+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxAppState\/Pod\/Classes\/UIViewController+Rx.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "RxAppState",
+          "filesGroup" : {
+            "kind" : "group",
+            "name" : "Project"
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "kind" : "extendingDefault",
+            "dictionary" : {
+
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+          "SWIFT_VERSION" : {
+            "kind" : "string",
+            "string" : "5.0.0"
+          }
+        },
+        "configurations" : [
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "kind" : "recommended",
+          "excluding" : [
+
+          ]
+        }
+      },
+      "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxAppState",
+      "filesGroup" : {
+        "kind" : "group",
+        "name" : "Project"
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxAppState\/RxAppState.xcodeproj",
+      "resourceSynthesizers" : [
+
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "RxAppState"
+    },
+    "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift",
+    {
+      "sourceRootPath" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift",
+      "options" : [
+
+      ],
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "kind" : "iOS",
+            "version" : "9.0",
+            "deploymentDevices" : 3
+          },
+          "prune" : false,
+          "bundleId" : "RxSwift",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "RxSwift",
+          "settings" : {
+            "base" : {
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                ]
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "SWIFT_PACKAGE"
+                ]
+              },
+              "USE_HEADERMAP" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "SWIFT_PACKAGE=1"
+                ]
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "kind" : "recommended",
+              "excluding" : [
+
+              ]
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsMaybe.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Catch.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CompactMap.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/NopDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DistinctUntilChanged.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/WithUnretained.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableType+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AnyObserver.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Bag+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Debounce.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/InvocableType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/VirtualTimeScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SynchronizedOnType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Do.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PrimitiveSequence.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Timeout.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Concat.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Zip+arity.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Infallible+Concurrency.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RxMutableBox.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/InfiniteSequence.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/HistoricalScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PrimitiveSequence+Concurrency.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Range.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ShareReplayScope.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ScheduledDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Platform.Linux.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Using.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/StartWith.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/MainScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObserveOn.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Error.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SynchronizedUnsubscribeType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DisposeBag.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Observable+Concurrency.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Binder.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/VirtualTimeConverterType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SkipWhile.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PriorityQueue.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Zip+Collection.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/WithLatestFrom.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Event.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SubscribeOn.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Single.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Maybe.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Take.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Multicast.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObserverBase.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObserverType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Sample.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/First.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/TakeWithPredicate.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SingleAsync.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/GroupBy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SubjectType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/TailRecursiveSink.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Reduce.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Enumerated.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Generate.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Lock.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CurrentThreadScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/TakeLast.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CombineLatest+arity.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SynchronizedDisposeType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/InvocableScheduledItem.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DispatchQueueConfiguration.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Infallible+Create.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CombineLatest.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Sequence.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Empty.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableType+PrimitiveSequence.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Delay.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Disposables.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Create.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ConnectableObservableType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Switch.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SubscriptionDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Optional.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Throttle.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Never.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/OperationQueueScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Sink.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Repeat.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/BooleanDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Completable+AndThen.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsSingle.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Window.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Scan.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SwiftSupport.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/LockOwnerType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsyncLock.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Debug.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ScheduledItem.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AddRef.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SchedulerType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsyncSubject.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DefaultIfEmpty.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ReplaySubject.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PublishSubject.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Bag.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AnonymousDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Queue.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Skip.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AnonymousObserver.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Observable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PrimitiveSequence+Zip+arity.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Dematerialize.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SingleAssignmentDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Timer.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Deferred.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableConvertibleType+Infallible.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SerialDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Infallible+Operators.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ToArray.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SkipUntil.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/GroupedObservable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DispatchQueue+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Infallible+Zip+arity.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Producer.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Amb.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ImmediateSchedulerType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Materialize.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RecursiveLock.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Infallible.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Disposable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ConcurrentDispatchQueueScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Map.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Completable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SchedulerServices+Emulation.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ConcurrentMainScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AtomicInt.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SerialDispatchQueueScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ScheduledItemType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Errors.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RecursiveScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Zip.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Decode.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/BinaryDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/BehaviorSubject.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ElementAt.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DelaySubscription.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SwitchIfEmpty.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Reactive.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Cancelable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CombineLatest+Collection.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CompositeDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Just.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RefCountDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Filter.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Buffer.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Date+Dispatch.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RetryWhen.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Infallible+CombineLatest+arity.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Platform.Darwin.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Merge.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableConvertibleType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/HistoricalSchedulerTimeConverter.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DisposeBase.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "framework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "RxSwift",
+          "filesGroup" : {
+            "kind" : "group",
+            "name" : "Project"
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "kind" : "extendingDefault",
+            "dictionary" : {
+
+            }
+          }
+        },
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "kind" : "iOS",
+            "version" : "9.0",
+            "deploymentDevices" : 3
+          },
+          "prune" : false,
+          "bundleId" : "RxCocoa",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "kind" : "target",
+              "name" : "RxSwift"
+            },
+            {
+              "kind" : "target",
+              "name" : "RxRelay"
+            },
+            {
+              "kind" : "target",
+              "name" : "RxCocoaRuntime"
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "RxCocoa",
+          "settings" : {
+            "base" : {
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "SWIFT_PACKAGE"
+                ]
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "USE_HEADERMAP" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "HEADER_SEARCH_PATHS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "$(SRCROOT)\/Sources\/RxCocoaRuntime\/include"
+                ]
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "SWIFT_PACKAGE=1"
+                ]
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                ]
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "kind" : "string",
+                "string" : "YES"
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "kind" : "recommended",
+              "excluding" : [
+
+              ]
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/TextInput.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSObject+Rx+KVORepresentable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxWKNavigationDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTarget.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSObject+Rx+RawRepresentable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxNavigationControllerDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UINavigationController+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIPickerView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSTextField+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITableView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/KVORepresentable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ObservableConvertibleType+SharedSequence.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ObservableConvertibleType+Driver.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/WKWebView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/DispatchQueue+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/URLSession+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SchedulerType+SharedSequence.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewDataSourceProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTabBarDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSButton+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITabBar+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISwitch+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/DelegateProxyType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTabBarControllerDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NotificationCenter+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSSlider+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SharedSequence+Operators+arity.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewReactiveArrayDataSource.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewDataSourceType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTextViewDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlProperty+Driver.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Observable+Bind.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIActivityIndicatorView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIApplication+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIBarButtonItem+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTextStorageDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/KVORepresentable+CoreGraphics.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISearchController+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlTarget.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISlider+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ObservableConvertibleType+Signal.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDataSourceProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ItemEvents.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UICollectionView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISegmentedControl+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSObject+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxScrollViewDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/KVORepresentable+Swift.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSTextStorage+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIButton+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlEvent.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCocoaObjCRuntimeError+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIScrollView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SharedSequence.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCocoa.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIGestureRecognizer+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDataSourceProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxSearchControllerDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Signal.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SectionedViewDataSourceType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITabBarController+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/DelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIControl+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/PublishRelay+Signal.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITextView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Driver+Subscription.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Driver.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewReactiveArrayDataSource.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDataSourceType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxSearchBarDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Infallible+Bind.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDataSourcePrefetchingProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDataSourceType.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlEvent+Signal.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIStepper+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIDatePicker+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlProperty.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewAdapter.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDataSourcePrefetchingProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Signal+Subscription.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIRefreshControl+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/BehaviorRelay+Driver.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SharedSequence+Concurrency.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISearchBar+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSTextView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlEvent+Driver.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SharedSequence+Operators.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSControl+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITextField+Rx.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "framework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "RxCocoa",
+          "filesGroup" : {
+            "kind" : "group",
+            "name" : "Project"
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "kind" : "extendingDefault",
+            "dictionary" : {
+
+            }
+          }
+        },
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "kind" : "iOS",
+            "version" : "9.0",
+            "deploymentDevices" : 3
+          },
+          "prune" : false,
+          "bundleId" : "RxCocoaRuntime",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "kind" : "target",
+              "name" : "RxSwift"
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "RxCocoaRuntime",
+          "settings" : {
+            "base" : {
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "SWIFT_PACKAGE"
+                ]
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "USE_HEADERMAP" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "HEADER_SEARCH_PATHS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "$(SRCROOT)\/Sources\/RxCocoaRuntime\/include"
+                ]
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "SWIFT_PACKAGE=1"
+                ]
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                ]
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "kind" : "string",
+                "string" : "YES"
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "kind" : "recommended",
+              "excluding" : [
+
+              ]
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RXKVOObserver.m"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RX.m"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RXObjCRuntime.m"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RXDelegateProxy.m"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "framework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "RxCocoaRuntime",
+          "headers" : {
+            "public" : [
+              "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/include\/_RXKVOObserver.h",
+              "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/include\/_RXObjCRuntime.h",
+              "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/include\/_RXDelegateProxy.h",
+              "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/include\/_RX.h",
+              "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/include\/RxCocoaRuntime.h"
+            ],
+            "private" : [
+
+            ],
+            "project" : [
+
+            ]
+          },
+          "filesGroup" : {
+            "kind" : "group",
+            "name" : "Project"
+          },
+          "infoPlist" : {
+            "kind" : "extendingDefault",
+            "dictionary" : {
+
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ]
+        },
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "kind" : "iOS",
+            "version" : "9.0",
+            "deploymentDevices" : 3
+          },
+          "prune" : false,
+          "bundleId" : "RxRelay",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "kind" : "target",
+              "name" : "RxSwift"
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "RxRelay",
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "SWIFT_PACKAGE"
+                ]
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                ]
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "USE_HEADERMAP" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "SWIFT_PACKAGE=1"
+                ]
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "kind" : "recommended",
+              "excluding" : [
+
+              ]
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/ReplayRelay.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/BehaviorRelay.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/PublishRelay.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/Utils.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/Observable+Bind.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "framework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "RxRelay",
+          "filesGroup" : {
+            "kind" : "group",
+            "name" : "Project"
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "kind" : "extendingDefault",
+            "dictionary" : {
+
+            }
+          }
+        },
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "kind" : "iOS",
+            "version" : "9.0",
+            "deploymentDevices" : 3
+          },
+          "prune" : false,
+          "bundleId" : "RxBlocking",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "kind" : "target",
+              "name" : "RxSwift"
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "RxBlocking",
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "SWIFT_PACKAGE"
+                ]
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "SWIFT_PACKAGE=1"
+                ]
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                ]
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "USE_HEADERMAP" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "kind" : "string",
+                "string" : "NO"
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "kind" : "recommended",
+              "excluding" : [
+
+              ]
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/RunLoopLock.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/RecursiveLock.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/AtomicInt.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/ObservableConvertibleType+Blocking.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/BlockingObservable+Operators.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/Resources.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/Platform.Darwin.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/BlockingObservable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/Platform.Linux.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "framework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "RxBlocking",
+          "filesGroup" : {
+            "kind" : "group",
+            "name" : "Project"
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "kind" : "extendingDefault",
+            "dictionary" : {
+
+            }
+          }
+        },
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "kind" : "iOS",
+            "version" : "9.0",
+            "deploymentDevices" : 3
+          },
+          "prune" : false,
+          "bundleId" : "RxTest",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+            {
+              "kind" : "target",
+              "name" : "RxSwift"
+            }
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "RxTest",
+          "settings" : {
+            "base" : {
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "SWIFT_PACKAGE"
+                ]
+              },
+              "ENABLE_TESTING_SEARCH_PATHS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "USE_HEADERMAP" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "kind" : "string",
+                "string" : "YES"
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "SWIFT_PACKAGE=1"
+                ]
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "kind" : "array",
+                "array" : [
+                  "$(inherited)",
+                  "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                ]
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "kind" : "string",
+                "string" : "NO"
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "kind" : "string",
+                "string" : "YES"
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "kind" : "recommended",
+              "excluding" : [
+
+              ]
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Subscription.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/ColdObservable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/TestableObserver.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Any+Equatable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/TestableObservable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/HotObservable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/RxTest.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Recorded.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/TestSchedulerVirtualTimeConverter.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Event+Equatable.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/XCTest+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Bag.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Recorded+Event.swift"
+            },
+            {
+              "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/TestScheduler.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "framework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "RxTest",
+          "filesGroup" : {
+            "kind" : "group",
+            "name" : "Project"
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "kind" : "extendingDefault",
+            "dictionary" : {
+
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+          "SWIFT_VERSION" : {
+            "kind" : "string",
+            "string" : "5.0.0"
+          }
+        },
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "kind" : "recommended",
+          "excluding" : [
+
+          ]
+        }
+      },
+      "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift",
+      "filesGroup" : {
+        "kind" : "group",
+        "name" : "Project"
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/RxSwift.xcodeproj",
+      "resourceSynthesizers" : [
+
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "RxSwift"
+    }
+  ],
+  "externalDependencies" : {
+    "RxTest" : [
+      {
+        "kind" : "project",
+        "target" : "RxTest",
+        "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+      }
+    ],
+    "RxAppState" : [
+      {
+        "kind" : "project",
+        "target" : "RxAppState",
+        "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxAppState"
+      }
+    ],
+    "RxCocoa" : [
+      {
+        "kind" : "project",
+        "target" : "RxCocoa",
+        "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+      }
+    ],
+    "RxBlocking" : [
+      {
+        "kind" : "project",
+        "target" : "RxBlocking",
+        "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+      }
+    ],
+    "RxCocoa-Dynamic" : [
+      {
+        "kind" : "project",
+        "target" : "RxCocoa",
+        "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+      }
+    ],
+    "RxSwift" : [
+      {
+        "kind" : "project",
+        "target" : "RxSwift",
+        "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+      }
+    ],
+    "RxRelay-Dynamic" : [
+      {
+        "kind" : "project",
+        "target" : "RxRelay",
+        "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+      }
+    ],
+    "RxRelay" : [
+      {
+        "kind" : "project",
+        "target" : "RxRelay",
+        "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+      }
+    ],
+    "RxTest-Dynamic" : [
+      {
+        "kind" : "project",
+        "target" : "RxTest",
+        "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+      }
+    ],
+    "RxBlocking-Dynamic" : [
+      {
+        "kind" : "project",
+        "target" : "RxBlocking",
+        "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+      }
+    ],
+    "RxSwift-Dynamic" : [
+      {
+        "kind" : "project",
+        "target" : "RxSwift",
+        "path" : "\/Users\/bradley\/Project\/indivisual\/kakao-insurance-\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "RxAppState",
+        "repositoryURL": "https://github.com/pixeldock/RxAppState.git",
+        "state": {
+          "branch": null,
+          "revision": "956f438ea16481c1bd9a8ca3bc169af7435aaf0b",
+          "version": "1.7.1"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "b4307ba0b6425c0ba4178e138799946c3da594f8",
+          "version": "6.5.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
