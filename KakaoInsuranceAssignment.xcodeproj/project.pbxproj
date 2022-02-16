@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		08B2307439080A7E7EEB10E7 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA53D5B8CF31EB8D71768E6 /* PhotoModel.swift */; };
+		1C955ED427BCE1B9008D7DA0 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C955ED327BCE1B9008D7DA0 /* Animator.swift */; };
 		214453ED4D5E1EC7E9269D60 /* Assets+KakaoInsuranceAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF4E2465F9E99BF8AFD552 /* Assets+KakaoInsuranceAssignment.swift */; };
 		21D84582D49DF18EBF4297E5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A99F547D8381A8771E68D3 /* NetworkService.swift */; };
 		374D92E2A126B77CE3805418 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB05E99752113199278C51 /* MainViewController.swift */; };
@@ -76,6 +77,7 @@
 		0A1287CD07C6103EE2671029 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
 		15348328C06D0A76C770C455 /* KakaoInsuranceAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoInsuranceAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15DB9C04EB2CC5C775A18F6F /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
+		1C955ED327BCE1B9008D7DA0 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 		2ABF627C462A5E97AD4D0F86 /* ImageOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOperation.swift; sourceTree = "<group>"; };
 		2C1B1C31F544CA8DAFFA86EE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33251AA0CFE039AF11EC5E9A /* KakaoInsuranceAssignmentTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = KakaoInsuranceAssignmentTests.plist; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				032E68AF64EA5A3398A48685 /* Operation */,
+				1C955ED327BCE1B9008D7DA0 /* Animator.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C955ED427BCE1B9008D7DA0 /* Animator.swift in Sources */,
 				214453ED4D5E1EC7E9269D60 /* Assets+KakaoInsuranceAssignment.swift in Sources */,
 				39BE659C071DADDE3F382836 /* Bundle+KakaoInsuranceAssignment.swift in Sources */,
 				A6D7DA4967F675E1B75AB049 /* AppDelegate.swift in Sources */,
@@ -595,6 +599,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9P6WAX9VN5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Derived/InfoPlists/KakaoInsuranceAssignment.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -617,6 +622,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9P6WAX9VN5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Derived/InfoPlists/KakaoInsuranceAssignment.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
