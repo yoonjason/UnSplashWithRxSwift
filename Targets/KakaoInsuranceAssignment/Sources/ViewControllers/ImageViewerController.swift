@@ -55,6 +55,7 @@ class ImageViewerController: UIViewController {
         super.viewDidLoad()
 
         setupViews()
+        self.setNeedsStatusBarAppearanceUpdate()
     }
 
     init(_ viewModel: PhotoListVewModel, cellIndex: Int) {
@@ -113,6 +114,8 @@ class ImageViewerController: UIViewController {
             closeBtn.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -closeBtn.frame.width),
             closeBtn.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             ])
+        transitioningDelegate = self
+        modalPresentationStyle = .custom
     }
 
 
@@ -145,18 +148,18 @@ extension ImageViewerController: UIGestureRecognizerDelegate {
 
 
 extension ImageViewerController: UIViewControllerTransitioningDelegate {
-//    func animationController(
-//        forPresented presented: UIViewController,
-//        presenting: UIViewController,
-//        source: UIViewController
-//    ) -> UIViewControllerAnimatedTransitioning? {
-//
-//    }
-//
-//    func animationController(
-//        forDismissed dismissed: UIViewController
-//    ) -> UIViewControllerAnimatedTransitioning? {
-//
-//    }
+    func animationController(
+        forPresented presented: UIViewController,
+        presenting: UIViewController,
+        source: UIViewController
+    ) -> UIViewControllerAnimatedTransitioning? {
+        return Animator(animationType: .present)
+    }
+
+    func animationController(
+        forDismissed dismissed: UIViewController
+    ) -> UIViewControllerAnimatedTransitioning? {
+        return Animator(animationType: .dismiss)
+    }
 
 }

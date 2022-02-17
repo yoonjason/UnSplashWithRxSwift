@@ -28,96 +28,85 @@ class Animator: NSObject {
 extension Animator {
 
     func animationPresent(using transitionContext: UIViewControllerContextTransitioning) {
+        print("1111")
         let containerView = transitionContext.containerView
-        guard
-            let fromVC = transitionContext.viewController(forKey: .from) as? MainViewController,
-            let toVC = transitionContext.viewController(forKey: .to) as? ImageViewerController,
-            let selectedCell = fromVC.selectedCell,
-            let indexPath = fromVC.currentIndexPath,
-            let toCollectionView = toVC.collectionView.subviews.first as? UICollectionView,
-            let toSelectedCell = toCollectionView.cellForItem(at: indexPath) as? ImageViewerCell
-            else {
-            return
-        }
-        let snapshotContentView = UIView()
-        snapshotContentView.backgroundColor = .blue
-        snapshotContentView.frame = containerView.convert(selectedCell.contentView.frame, from: selectedCell)
-        snapshotContentView.layer.cornerRadius = selectedCell.layer.cornerRadius
-
-        var snapshotCollectionView = UICollectionView()
-        snapshotCollectionView = toVC.collectionView
-        snapshotCollectionView.frame = containerView.convert(snapshotCollectionView.frame, from: selectedCell)
-
+        print("2222")
+        
+        guard let toVC = transitionContext.viewController(forKey: .to) as? ImageViewerController else { return }
+        guard let fromVC = transitionContext.viewController(forKey: .from) as? UINavigationController else { return }
+        guard let mainVC = fromVC.viewControllers.first as? MainViewController else { return }
+        guard let selectedCell = mainVC.selectedCell else { return }
+        guard let indexPath = mainVC.currentIndexPath else { return }
+        
+        let frame = selectedCell.convert(selectedCell.frame, from: fromVC.view)
+        toVC.view.frame = frame
+        
         containerView.addSubview(toVC.view)
-        containerView.addSubview(snapshotContentView)
-        containerView.addSubview(snapshotCollectionView)
-
-        toVC.view.isHidden = true
-
-        let animator = UIViewPropertyAnimator(duration: timeDuration, curve: .easeInOut) {
-            snapshotContentView.frame = containerView.convert(toVC.view.frame, from: toVC.view)
-            snapshotCollectionView.frame = containerView.convert(snapshotCollectionView.frame, from: toCollectionView)
-
+        
+        UIView.animate(withDuration: timeDuration, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0, options: []) {
+            toVC.view.frame = UIScreen.main.bounds
+            toVC.view.layer.cornerRadius = 20
+            
+        } completion: { completed in
+            transitionContext.completeTransition(completed)
         }
 
-        animator.addCompletion { position in
-            toVC.view.isHidden = false
-            snapshotCollectionView.removeFromSuperview()
-            snapshotContentView.removeFromSuperview()
-            transitionContext.completeTransition(position == .end)
-        }
-
-        animator.startAnimation()
+        
+//        print("3333")
+//        guard
+//            let toSelectedCell = toCollectionView.cellForItem(at: indexPath) as? ImageViewerCell else {
+//                print("not found")
+//                return }
+        print("4444")
+//        let snapshotContentView = UIView()
+//        snapshotContentView.backgroundColor = .blue
+//        snapshotContentView.frame = containerView.convert(selectedCell.contentView.frame, from: selectedCell)
+//        snapshotContentView.layer.cornerRadius = selectedCell.layer.cornerRadius
+//
+//        var snapshotCollectionView = UICollectionView()
+//        snapshotCollectionView = toVC.collectionView
+//        snapshotCollectionView.frame = containerView.convert(snapshotCollectionView.frame, from: selectedCell)
+//
+//        containerView.addSubview(toVC.view)
+//        containerView.addSubview(snapshotContentView)
+//        containerView.addSubview(snapshotCollectionView)
+//
+//        toVC.view.isHidden = true
+//
+//        let animator = UIViewPropertyAnimator(duration: timeDuration, curve: .easeInOut) {
+//            snapshotContentView.frame = containerView.convert(toVC.view.frame, from: toVC.view)
+//            snapshotCollectionView.frame = containerView.convert(snapshotCollectionView.frame, from: toCollectionView)
+//
+//        }
+//
+//        animator.addCompletion { position in
+//            toVC.view.isHidden = false
+//            snapshotCollectionView.removeFromSuperview()
+//            snapshotContentView.removeFromSuperview()
+//            transitionContext.completeTransition(position == .end)
+//        }
+//
+//        animator.startAnimation()
     }
 
     func animationDismiss(using transitionContext: UIViewControllerContextTransitioning) {
-        
-    }
-
-    func presentController(_ toVC: ImageViewerController, fromVC: MainViewController, with transitionContext: UIViewControllerContextTransitioning) {
-        let containerView = transitionContext.containerView
         guard
-            let fromVC = transitionContext.viewController(forKey: .from) as? MainViewController,
-            let toVC = transitionContext.viewController(forKey: .to) as? ImageViewerController,
-            let selectedCell = fromVC.selectedCell,
-            let indexPath = fromVC.currentIndexPath,
-            let toCollectionView = toVC.collectionView.subviews.first as? UICollectionView,
-            let toSelectedCell = toCollectionView.cellForItem(at: indexPath) as? ImageViewerCell
-            else {
+            let fromVC = transitionContext.viewController(forKey: .from) as? ImageViewerController,
+            let toVC = transitionContext.viewController(forKey: .to) as? UINavigationController,
+            let mainVC = toVC.viewControllers.first as? MainViewController,
+            let selectedCell = mainVC.selectedCell
+        else {
             return
         }
-        let snapshotContentView = UIView()
-        snapshotContentView.backgroundColor = .blue
-        snapshotContentView.frame = containerView.convert(selectedCell.contentView.frame, from: selectedCell)
-        snapshotContentView.layer.cornerRadius = selectedCell.layer.cornerRadius
-
-        var snapshotCollectionView = UICollectionView()
-        snapshotCollectionView = toVC.collectionView
-        snapshotCollectionView.frame = containerView.convert(snapshotCollectionView.frame, from: selectedCell)
-
-        containerView.addSubview(toVC.view)
-        containerView.addSubview(snapshotContentView)
-        containerView.addSubview(snapshotCollectionView)
-
-        toVC.view.isHidden = true
-
-        let animator = UIViewPropertyAnimator(duration: timeDuration, curve: .easeInOut) {
-            snapshotContentView.frame = containerView.convert(toVC.view.frame, from: toVC.view)
-            snapshotCollectionView.frame = containerView.convert(snapshotCollectionView.frame, from: toCollectionView)
-
+        
+        UIView.animate(withDuration: timeDuration/0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: []) {
+            let frame = selectedCell.convert(selectedCell.frame, from: fromVC.view)
+            fromVC.view.frame = UIScreen.main.bounds
+        } completion: { completed in
+            transitionContext.completeTransition(completed)
         }
 
-        animator.addCompletion { position in
-            toVC.view.isHidden = false
-            snapshotCollectionView.removeFromSuperview()
-            snapshotContentView.removeFromSuperview()
-            transitionContext.completeTransition(position == .end)
-        }
-
-        animator.startAnimation()
     }
-
-
 
 }
 
@@ -129,6 +118,10 @@ extension Animator: UIViewControllerAnimatedTransitioning {
 
     //애니메이션이 이뤄지는 화면들을 결정하고, 프레임, 위치 좌표등을 설정한다.
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
-
+        if animationType == .present {
+            animationPresent(using: transitionContext)
+        } else {
+            animationDismiss(using: transitionContext)
+        }
     }
 }
