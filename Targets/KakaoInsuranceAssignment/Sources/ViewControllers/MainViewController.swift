@@ -22,6 +22,7 @@ class MainViewController: UIViewController {
     let layout = UICollectionViewFlowLayout()
 
     var selectedCell: PhotoCell?
+    var currentIndexPath: IndexPath?
 
     private lazy var collectionView: UICollectionView = {
         layout.scrollDirection = .vertical
@@ -99,11 +100,12 @@ class MainViewController: UIViewController {
             guard let cell = self?.collectionView.cellForItem(at: indexPath) else { return }
             guard let cell = cell as? PhotoCell else { return }
             self?.selectedCell = cell
+            self?.currentIndexPath = indexPath
             print(self?.selectedCell?.photoImage?.urls.thumb)
             viewModel.currentPageIndexPath.accept(indexPath.row)
-//            let detailVC = ImageViewerController(viewModel, cellIndex: indexPath.row)
-//            detailVC.modalPresentationStyle = .fullScreen
-//            self?.present(detailVC, animated: true, completion: nil)
+            let detailVC = ImageViewerController(viewModel, cellIndex: indexPath.row)
+            detailVC.modalPresentationStyle = .fullScreen
+            self?.present(detailVC, animated: true, completion: nil)
         }
             .disposed(by: disposeBag)
 
@@ -134,7 +136,7 @@ class MainViewController: UIViewController {
             collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             collectionView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
-            ])
+        ])
     }
 
     func setSearchContrller() {
