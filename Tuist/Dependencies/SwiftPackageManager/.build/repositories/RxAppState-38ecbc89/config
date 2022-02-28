@@ -4,7 +4,6 @@
 	bare = true
 	ignorecase = true
 	precomposeunicode = true
-	symlinks = true
 [remote "origin"]
 	url = https://github.com/pixeldock/RxAppState.git
 	fetch = +refs/*:refs/*
