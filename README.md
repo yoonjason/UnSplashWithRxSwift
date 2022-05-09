@@ -2,9 +2,9 @@
 
 
 
-#Tuist 적용
+# Tuist 적용
 
-##기능
+## 기능
 * 사진 목록
  - Operation을 이용하여, 이미지를 각 셀에 데이터를 넣어주고, willdisplaycell 일 때, 이미지 변환을 통해 이미지를 보여주고, enddidplaycell에서는 operation을 중지시키고, 이미지를 보여주는 작업을 하지 않습니다.
 
@@ -17,7 +17,7 @@
  - searchController를 이용하여, 입력받은 데이터를 ViewModel로 보내, 값이 입력되면 사진 목록을 다시 불러옵니다.
  - 취소를 누르게 되면, 원래 호출하고 있던, 사진 목록을 불러옵니다.
 
-##전체 앱 구성
+## 전체 앱 구성
 - MVVM + RxSwift
 - ViewModel: PhotoListViewModel, PhotoViewModel
 - View : MainViewController, ImageViewerController, PhotoCell, ImageViewerCell
